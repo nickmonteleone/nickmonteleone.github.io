@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Owen Pro';
+  src: url('app/fonts/OwenPro-Light.otf');
+}
+
+* {
+  font-family: 'Owen Pro', sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
 .nav-background {
   background: #FFE098;
   font-size: 1.5rem;
@@ -11,16 +22,14 @@
 
 .name-header {
   color: #3D375D;
-  font-family: Owen Pro;
   font-size: 3.5rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   padding-left: 10px;
 }
 
 .main-background {
   background: #F5F5F5;
+  max-width: 800px;
 }
 
 .profile-image {
@@ -33,11 +42,8 @@
 
 .name-subheader {
   color: #629FCB;
-  font-family: Owen Pro;
   font-size: 2.5rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   text-align: right;
   padding-top: 5px;
   padding-right: 10px;
@@ -45,11 +51,8 @@
 
 .name-subheader-child {
   color: #7B7CB2;
-  font-family: Owen Pro;
   font-size: 2.5rem;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   text-align: right;
   padding-right: 10px;
 }
@@ -57,52 +60,37 @@
 .title-text {
   color: #656565;
   text-align: center;
-  font-family: Owen Pro;
   font-size: 2rem;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .title-value {
   color: #3D375D;
   text-align: center;
-  font-family: Owen Pro;
   font-size: 2rem;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+}
+
+.about-text{
+  color: #3D375D;
+  text-align: center;
 }
 
 .normal-text {
-  color: #3D375D;
-  text-align: center;
-  font-family: Owen Pro;
   font-size: 1.5rem;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 
 .bold-text {
-  color: #3D375D;
-  text-align: center;
-  font-family: Owen Pro;
   font-size: 1.5rem;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .sub-text {
-  color: #3D375D;
-  text-align: center;
-  font-family: Owen Pro;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
+
 
 .company-image {
   display: block;
@@ -136,26 +124,19 @@
   padding-top: 10px;
 }
 
+.footer-text{
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .footer-left {
   color: #3D375D;
-  font-family: Owen Pro;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-left: 10px;
-
 }
 
 .footer-right {
   color: #656565;
-  font-family: Owen Pro;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-right: 10px;
-  text-align: right;
 }
 
 .footer-middle {
