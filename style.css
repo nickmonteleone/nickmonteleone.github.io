@@ -1,0 +1,163 @@
+.nav-background {
+  background: #FFE098;
+  font-size: 1.5rem;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-link{
+  color:#656565;
+}
+
+.name-header {
+  color: #3D375D;
+  font-family: Owen Pro;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+.main-background {
+  background: #F5F5F5;
+}
+
+.profile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 600px
+}
+
+.name-subheader {
+  color: #629FCB;
+  font-family: Owen Pro;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.name-subheader-child {
+  color: #7B7CB2;
+  font-family: Owen Pro;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.title-text {
+  color: #656565;
+  text-align: center;
+  font-family: Owen Pro;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-value {
+  color: #3D375D;
+  text-align: center;
+  font-family: Owen Pro;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.normal-text {
+  color: #3D375D;
+  text-align: center;
+  font-family: Owen Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bold-text {
+  color: #3D375D;
+  text-align: center;
+  font-family: Owen Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub-text {
+  color: #3D375D;
+  text-align: center;
+  font-family: Owen Pro;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.company-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.company-image-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.company-image-large {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.footer {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #C5E7FF;
+  padding-top: 10px;
+}
+
+.footer-left {
+  color: #3D375D;
+  font-family: Owen Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px;
+
+}
+
+.footer-right {
+  color: #656565;
+  font-family: Owen Pro;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.footer-middle {
+  flex: auto;
+}
