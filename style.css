@@ -1,6 +1,14 @@
+/* font from google fonts - jost */
+@font-face{
+  font-family: 'Jost';
+  src: url('fonts/Jost-VariableFont_wght.ttf') format('truetype'),
+  url('fonts/OFL.txt') format('woff')
+}
+
+
 /* font styling for all text */
 * {
-  font-family: 'Owen Pro', sans-serif;
+  font-family: 'Jost', 'Owen Pro', sans-serif;
   font-style: normal;
   line-height: normal;
 }
@@ -29,21 +37,21 @@
 
 .section-box {
   display: block;
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 15%;
 }
 
 .contact-box {
   display: block;
   padding-top: 15%;
-  padding-bottom: 40%;
+  padding-bottom: 20%;
 }
 
 /* home image and text */
 .name-header {
   color: #3D375D;
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 700;
   padding-left: 10px;
 }
 
@@ -57,7 +65,7 @@
 .name-subheader {
   color: #629FCB;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
   padding-top: 5px;
   padding-right: 10px;
@@ -66,7 +74,7 @@
 .name-subheader-child {
   color: #7B7CB2;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
   padding-right: 10px;
 }
