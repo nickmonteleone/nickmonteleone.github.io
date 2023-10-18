@@ -1,14 +1,11 @@
-@font-face {
-  font-family: 'Owen Pro';
-  src: url('app/fonts/OwenPro-Light.otf');
-}
-
+/* font styling for all text */
 * {
   font-family: 'Owen Pro', sans-serif;
   font-style: normal;
   line-height: normal;
 }
 
+/* nav bar  */
 .nav-background {
   background: #FFE098;
   font-size: 1.5rem;
@@ -16,38 +13,38 @@
   width: 100%;
 }
 
-.nav-link{
-  color:#656565;
+.nav-link {
+  color: #656565;
 }
 
-.name-header {
-  color: #3D375D;
-  font-size: 3.5rem;
-  font-weight: 600;
-  padding-left: 10px;
+/* background and boxes for sections */
+.main-background {
+  background: #F5F5F5;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.section-box{
+.section-box {
   display: block;
   padding-top: 15%;
   padding-bottom: 15%;
 }
 
-.contact-box{
+.contact-box {
   display: block;
   padding-top: 15%;
   padding-bottom: 40%;
 }
 
-
-
-.main-background {
-  background: #F5F5F5;
-  display:flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+/* home image and text */
+.name-header {
+  color: #3D375D;
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding-left: 10px;
 }
 
 .profile-image {
@@ -74,6 +71,7 @@
   padding-right: 10px;
 }
 
+/* text for about section */
 .title-text {
   color: #656565;
   text-align: center;
@@ -81,14 +79,7 @@
   font-weight: 400;
 }
 
-.title-value {
-  color: #3D375D;
-  text-align: center;
-  font-size: 1.35rem;
-  font-weight: 400;
-}
-
-.about-text{
+.about-text {
   color: #3D375D;
   text-align: center;
 }
@@ -108,12 +99,12 @@
   font-weight: 300;
 }
 
-
+/* images for about section */
 .company-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 25%;
   max-width: 150px;
 }
 
@@ -121,7 +112,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 15%;
   max-width: 100px;
 }
 
@@ -129,10 +120,19 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 50%;
   max-width: 250px;
 }
 
+/* contact text */
+.contact-text {
+  color: #3D375D;
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+/* footer */
 .footer {
   display: flex;
   overflow: hidden;
@@ -144,7 +144,7 @@
   padding-top: 10px;
 }
 
-.footer-text{
+.footer-text {
   font-size: 1.5rem;
   font-weight: 400;
   padding-left: 10px;
