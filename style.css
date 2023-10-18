@@ -27,14 +27,23 @@
   padding-left: 10px;
 }
 
-.name-box{
+.section-box{
   display: block;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
+
+.contact-box{
+  display: block;
+  padding-top: 15%;
+  padding-bottom: 40%;
+}
+
 
 
 .main-background {
   background: #F5F5F5;
-    display:flex;
+  display:flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: flex-start;
@@ -75,7 +84,7 @@
 .title-value {
   color: #3D375D;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.35rem;
   font-weight: 400;
 }
 
