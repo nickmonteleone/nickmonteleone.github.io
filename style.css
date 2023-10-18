@@ -27,17 +27,25 @@
   padding-left: 10px;
 }
 
+.name-box{
+  display: block;
+}
+
+
 .main-background {
   background: #F5F5F5;
-  max-width: 800px;
+    display:flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .profile-image {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 60%;
-  max-width: 600px
+  max-width: 10000px
 }
 
 .name-subheader {
@@ -97,6 +105,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 15%;
+  max-width: 150px;
 }
 
 .company-image-small {
@@ -104,6 +113,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 10%;
+  max-width: 100px;
 }
 
 .company-image-large {
@@ -111,6 +121,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+  max-width: 250px;
 }
 
 .footer {
