@@ -132,8 +132,12 @@ body {
   text-align: center;
   font-size: 1.35rem;
   font-weight: 400;
-  justify-content: center;
 }
+
+.no-underline {
+  text-decoration: none;
+}
+
 
 /* footer */
 .footer {
